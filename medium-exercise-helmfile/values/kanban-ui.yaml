@@ -1,0 +1,7 @@
+app:
+  name: kanban-ui
+  group: frontend
+  replicaCount: 1
+  container:
+    image: wkrzywiec/kanban-ui:k8s
+    port: 80
